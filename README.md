@@ -12,8 +12,8 @@ a cancellative conjugative partial monoid.
 The file "gpe-algebras1-9.txt" contains a list of all GPE-algebras with 1 through 9 elements up to isomorphism.
 There are a total of 12996 gpe-algebras with cardinality from 1 to 9.
 
-The file "gpe-algebras10.txt" contains a list of all GPE-algebras with 10 elements up to isomorphism.
-There are a total of 322918 gpe-algebras with cardinality 10. A gzipped version is also available.
+The file "gpe-algebras10.txt.gz" contains a list of all GPE-algebras with 10 elements up to isomorphism.
+There are a total of 322918 gpe-algebras with cardinality 10. Use gunzip to get a 80Mb plain text version.
 
 The algebras of each cardinality are numbered from 1 to n. Algebras are stored as n-by-n tables (lists of lists),
 followed by their number and a 3-character string indicating if the algebra satisfies orthogonality (O),
