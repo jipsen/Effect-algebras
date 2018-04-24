@@ -18,10 +18,12 @@ There are a total of 322918 gpe-algebras with cardinality 10. Use gunzip to get 
 The partial algebras can be read in and processed further in many different programming languages. For example,
 in Python the commands
 ```
-f=open(“pathtofile/filename.txt”)
+f = open(“pathtofile/gpe-algebras1-9.txt”)
 st = f.read()
-a = eval(st)
+alg = eval(st)
 ```
+will read the file into a string and make the algebras available in the list `alg`. 
+
 The algebras of each cardinality are numbered from 1 to n. Algebras are stored as n-by-n tables (lists of lists),
 followed by their number and a 3-character string indicating if the algebra satisfies orthogonality (O),
 commutativity (C), and/or consistency (c). In the table the value 0 is used to denote "undefined" for all
